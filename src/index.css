@@ -1,0 +1,40 @@
+/* GOOGLE FONTS POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+    @apply text-center font-extrabold text-2xl lg:text-4xl;
+}
+
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-black;
+}
+
+.nav-fixed {
+    @apply fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-md;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.hamburger-active>span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburger-active>span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active>span:nth-child(3) {
+    @apply -rotate-45;
+}
+
+
+/* VARIABLE CSS */
+*, html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+};
