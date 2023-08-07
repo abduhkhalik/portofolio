@@ -26,7 +26,7 @@ const Portofolio = () => {
   ];
 
   return (
-    <section id="porto" className="py-24 bg-gray-300 -mt-48 lg:mt-0">
+    <section id="porto" className="py-32 bg-gray-300 -mt-48 lg:mt-0">
       <h1 className="title uppercase">My Portofolio</h1>
       <div className="container">
         <div className="flex flex-wrap justify-center gap-5 lg:gap-9 item-center my-10">
