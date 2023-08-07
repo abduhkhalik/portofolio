@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .title {
-    @apply text-center font-extrabold text-2xl lg:text-4xl;
+    @apply text-center font-extrabold text-2xl lg:text-4xl uppercase mb-10;
 }
 
 .hamburger-line {
@@ -31,10 +31,13 @@
 
 
 /* VARIABLE CSS */
-*, html {
-  scroll-behavior: smooth;
+*,
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-};
+    font-family: "Poppins", sans-serif;
+}
+
+;

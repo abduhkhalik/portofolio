@@ -2,7 +2,7 @@ import Sosial from "./Sosial";
 
 const About = () => {
   return (
-    <section id="about" className="px-24 py-32 -mt-48 lg:mt-0">
+    <section id="about" className="px-24 py-32 bg-gray-100 -mt-48 lg:mt-0">
       <h1 className="title">
         ABOUT ME
       </h1>

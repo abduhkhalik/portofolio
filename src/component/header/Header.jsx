@@ -1,9 +1,9 @@
 const Header = () => {
   const links = [
+    { name: "Beranda", link: "#" },
     { name: "Tentang Saya", link: "#about" },
     { name: "Portofolio", link: "#porto" },
     { name: "Client", link: "#client" },
-    { name: "Kontak", link: "#kontak" },
   ];
 
   window.onscroll = () => {
