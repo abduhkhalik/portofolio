@@ -3,9 +3,7 @@ import Sosial from "./Sosial";
 const About = () => {
   return (
     <section id="about" className="py-32 bg-gray-100 -mt-48 lg:mt-0">
-      <h1 className="title">
-        ABOUT ME
-      </h1>
+      <h1 className="title">ABOUT ME</h1>
       <div className="container">
         <div className="flex flex-wrap my-10">
           <div className="w-full lg:w-1/2">
@@ -26,6 +24,9 @@ const About = () => {
             <h2 className="text-xl lg:text-2xl font-bold">Sosial Media</h2>
             <div className="my-3">
               <Sosial />
+              <p className="font-bold text-gray-600 mt-2">
+                Silahkan Hubungi Saya ....
+              </p>
             </div>
           </div>
         </div>
